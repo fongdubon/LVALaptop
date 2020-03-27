@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Employee.cs" />
+    <Compile Include="Data\EmployeePortable.cs" />
     <Compile Include="Data\IEntity.cs" />
     <Compile Include="Data\Portable.cs" />
     <Compile Include="Form1.cs">
