@@ -1,7 +1,7 @@
 ﻿namespace LVALaptop.Data
 {
     using System.Collections.Generic;
-    //Holis 
+    //Holis probando para hacer la sincronizada
     public class Employee : IEntity
     {
         public int Id { get; set; }
