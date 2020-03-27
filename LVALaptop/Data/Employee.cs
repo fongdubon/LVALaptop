@@ -1,7 +1,7 @@
 ﻿namespace LVALaptop.Data
 {
     using System.Collections.Generic;
-
+    //Holis 
     public class Employee : IEntity
     {
         public int Id { get; set; }
