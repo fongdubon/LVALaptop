@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LVALaptop
 {
-    public partial class Form1 : Form
+    public partial class frmEmpleados : MetroFramework.Forms.MetroForm
     {
-        public Form1()
+        public frmEmpleados()
         {
             InitializeComponent();
         }
