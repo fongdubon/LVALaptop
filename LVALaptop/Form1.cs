@@ -126,5 +126,14 @@ namespace LVALaptop
                 }
             }
         }
+
+        private void grdDatos_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            Employee employee = employeeBindingSource.Current as Employee;
+            if (employee != null && employee.ImageUrl != null)
+                pctFoto.Image = Image.FromFile(employee.ImageUrl);
+            else
+                pctFoto.Image = null;
+        }
     }
 }
