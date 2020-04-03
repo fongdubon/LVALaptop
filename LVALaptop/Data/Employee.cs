@@ -17,6 +17,7 @@
         public string LastName { get; set; }
 
         public string FullName => $"{LastName} {FirstName}";
+        //Hola Yael
 
         [StringLength(200)]
         public string ImageUrl { get; set; }
