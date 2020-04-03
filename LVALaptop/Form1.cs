@@ -76,7 +76,7 @@ namespace LVALaptop
             if(MetroFramework.MetroMessageBox.Show(this,
                 "¿Quieres eliminar el registro?",
                 "Eliminar",
-                MessageBoxButtons.YesNo,
+                MessageBoxButtons.OKCancel,
                 MessageBoxIcon.Question)==DialogResult.OK)
             {
                 using (DataContext dataContext = new DataContext())
